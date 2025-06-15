@@ -1,0 +1,36 @@
+.navbar-container {
+    margin-top: 0;
+    top: 0;
+}
+
+/* .navbar {
+    position: f;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background: red;
+    z-index: 100;
+} */
+
+.navbar {
+    position: fixed;                          
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    background: #080809;         
+    color: #fff;
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    backdrop-filter: blur(16px) saturate(180%);
+    z-index: 1000;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+
+.navbar-title {
+    font-size: 16px;
+    margin: 0%;
+}

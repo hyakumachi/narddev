@@ -1,0 +1,35 @@
+.contact-container {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    box-sizing: border-box;
+}
+
+.contact-container button {
+    flex: 1;
+    min-width: none;
+    border: 0.1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #080809;
+    color: #fff;
+}
+
+.icon {
+    margin: auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

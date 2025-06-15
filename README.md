@@ -1,6 +1,7 @@
 Website Features
 - custom cursor animation
 - overall theme is B&W minimalistic. Design not finalized
+- need better fonts
 
 Navbar:
 - @narddev that links to the site itself
@@ -8,7 +9,8 @@ Navbar:
 - sticky blurry navbar
 
 - About
-- pic is B&W
-- pic transition when hovered
-- Name and role
-- buttons for CV and gmail
+- 
+
+TO-DO:
+- add button for cv, linkedin, github, email that takes up the whole main div?
+- Hamburger menu????????
