@@ -13,3 +13,4 @@ Navbar:
 TO-DO:
 - add button for cv, linkedin, github, email that takes up the whole main div?
 - Hamburger menu????????
+- change all font-size to clamp for responsiveness

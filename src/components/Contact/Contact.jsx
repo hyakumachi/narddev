@@ -1,7 +1,6 @@
 import React from 'react'
 import './Contact.css'
 import { FaGithub } from "react-icons/fa";
-import { MdOutlineFileDownload } from "react-icons/md";
 import { MdCloudDownload } from "react-icons/md";
 
 const Contact = () => {

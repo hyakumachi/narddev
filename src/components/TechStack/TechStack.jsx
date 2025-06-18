@@ -7,6 +7,7 @@ import { SiNestjs } from "react-icons/si";
 import { SiPrisma } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { RiSupabaseFill } from "react-icons/ri";
+import { FaGitAlt } from "react-icons/fa";
 
 const TechStack = () => {
   return (
@@ -20,6 +21,7 @@ const TechStack = () => {
             <SiNestjs />
             <SiPrisma />
             <RiSupabaseFill />
+            <FaGitAlt />
         </div>
     </div>
   )

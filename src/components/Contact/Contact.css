@@ -22,14 +22,24 @@
     font-size: 14px;
 }
 
-button:hover {
-    background: #080809;
-    color: #fff;
+.contact-container button:hover {
+    background: #fff;
+    color: #000;
 }
 
 .icon {
-    margin: auto 10px;
+    margin-right: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: color 0.2s;
+    color: inherit;
+}
+
+.contact-container button:hover .icon {
+    color: #000;
+}
+
+.contact-container button:hover .icon {
+    filter: invert(1);
 }

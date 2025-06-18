@@ -1,25 +1,23 @@
-.experience {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem; /* space between timeline and description */
+  .experience-entry {
+    display: block;
+    margin-bottom: 1.5rem;
   }
   
-  .timeline {
-    flex: 0 0 150px; /* fixed width for timeline */
-    font-weight: bold;
-    font-size: clamp(0.8rem, 1vw, 1rem);
-    margin-bottom: 0.5rem;
-  }
-  
-  .description {
-    flex: 1; /* takes the remaining space */
+  .entry-date, .entry-event, .description {
     line-height: 1.5;
-    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 1vw, 1rem);
   }
 
-  .desc-title {
-    font-size: clamp(0.8rem, 1.2vw, 1.5rem);
+  .entry-date {
+    color: #aaa;
+    margin-bottom: 0.2rem;
+  }
+
+  .entry-event {
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
     font-weight: bold;
     margin-bottom: 0.5rem;
-    white-space: nowrap;
+  }
+  .description {
+    color: #aaa;
   }
