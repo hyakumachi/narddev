@@ -6,7 +6,6 @@ Website Features
 Navbar:
 - @narddev that links to the site itself
 - change the text font into something more "code-like"
-- sticky blurry navbar
 
 - About
 - 
