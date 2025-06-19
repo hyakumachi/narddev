@@ -4,9 +4,7 @@
     const Experience = () => {
     return (
         <div className='container'>
-            <h2 className='title'>
-                Experience
-            </h2>
+            <h2 className='title'>Experience</h2>
             <div className="experience-entry">
                 <div className="entry-date">Aug 2023 - Present</div>
                 <div className='entry-event'>Ateneo de Davao University</div>

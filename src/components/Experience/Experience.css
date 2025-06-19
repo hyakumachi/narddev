@@ -6,6 +6,7 @@
   .entry-date, .entry-event, .description {
     line-height: 1.5;
     font-size: clamp(0.8rem, 1vw, 1rem);
+    padding-left: 24px;
   }
 
   .entry-date {

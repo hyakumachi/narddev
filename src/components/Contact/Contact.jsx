@@ -7,8 +7,10 @@ const Contact = () => {
   return (
     <div  className='container'>
         <div className="contact-container">
-            <button className='github-btn'><FaGithub className='icon'size={16}/>Github</button>
-            <button className='resume-btn' ><MdCloudDownload className='icon' size={20}/>Resume</button>
+            <button className='github-btn' 
+              onClick={() => window.open("https://github.com/hyakumachi", "_blank", "noopener,noreferrer")}><FaGithub className='icon'size={16}/>Github</button>
+            <button className='resume-btn' 
+            onClick={() => window.open("/src/assets/resume.pdf", "_blank", "noopener,noreferrer")}><MdCloudDownload className='icon' size={20}/>Resume</button>
         </div>
     </div>
   )

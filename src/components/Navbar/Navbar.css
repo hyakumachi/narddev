@@ -24,6 +24,7 @@
     align-items: center;
     height: 100%;
     padding: 0 1rem;
+    justify-content: space-between;
   }
   
 
@@ -39,3 +40,8 @@
     backdrop-filter: blur(16px) saturate(180%);
     box-shadow: 0 2px 8px rgba(0,0,0,0.17);
   }
+
+.hamburger-menu {
+  margin-right: 0;
+  cursor: pointer;
+}
