@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className='navbar-container'>
       <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
         <div className="container">
-          <h1 className='navbar-title'>@narddev</h1>
+          <h1 className='navbar-title' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>@narddev</h1>
           <div className="hamburger-menu">
           <FiMenu size={28}/>
         </div>
