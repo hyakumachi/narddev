@@ -36,12 +36,12 @@
   width: 200px;
   max-width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   transition: filter 0.3s ease-in-out;
 }
 
 .profile-img:hover {
-  filter: grayscale(0%);
+  filter: grayscale(100%);
 }
 
 .about-description {

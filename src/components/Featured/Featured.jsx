@@ -2,6 +2,8 @@ import React from "react";
 import "./Featured.css";
 import proj1 from "/src/assets/ftproj1.png";
 import proj2 from "/src/assets/ftproj2.png";
+import proj3 from "/src/assets/ftproj3.png";
+
 
 const projects = [
   {
@@ -18,17 +20,17 @@ const projects = [
     name: "User Management System",
     description:
       "A simple user management system that displays user data with search and filter features, and shows full user details in a modal.",
-    stack: ["Javascript"],
+    stack: ["HTML", "CSS", "Javascript"],
     img: proj2,
     url: "https://github.com/hyakumachi/PacanzaUserSystem",
   },
   {
-    date: "June 2025",
-    name: "Campus Elect Backend",
-    description: "A backend system for a campus election.",
-    stack: ["TypeScript", "Supabase", "Prisma", "NestJS"],
-    img: proj2,
-    url: "https://github.com/hyakumachi/PACANZA-campus-elect-backend",
+    date: "April 2025",
+    name: "Landing Page",
+    description: "A landing page exercise from The Odin Project.",
+    stack: ["HTML", "CSS", "Github Pages"],
+    img: proj3,
+    url: "https://hyakumachi.github.io/odin-landing_page/",
   },
 ];
 

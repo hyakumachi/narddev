@@ -6,6 +6,7 @@ const Footer = () => {
 
   return (
     <div className="container">
+      <hr />
       <footer>
         <p>&copy; {year} Bernard Louie S. Pacanza. All rights reserved.</p>
       </footer>

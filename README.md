@@ -8,11 +8,9 @@ Navbar:
 
 - change the text font into something more "code-like"
 
-- About
--
-
 TO-DO:
 
 - add button for cv, linkedin, github, email that takes up the whole main div?
-- Hamburger menu????????
 - change all font-size to clamp for responsiveness
+- refactor to typescript + tailwind
+- #FFFBEB bg color for possible light mode addition 
