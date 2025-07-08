@@ -1,8 +1,39 @@
 .stack-icons {
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 1rem;
+  margin-top: 1rem;
 }
+
+.tech-card {
+  background: #111;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s cubic-bezier(.4,2,.6,1), box-shadow 0.2s cubic-bezier(.4,2,.6,1);
+  cursor: pointer;
+}
+.tech-card:hover,
+.tech-card:focus {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.24);
+}
+
+.tech-icon {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  transition: color 0.2s;
+}
+
+.tech-name {
+  font-size: .85rem;
+  color: #ffffff;
+} 
+
+.tech-card.react-icon:hover .tech-icon   { color: #61dafb; }
+.tech-card.typescript-icon:hover .tech-icon { color: #3178c6; }
+.tech-card.tailwind-icon:hover .tech-icon   { color: #38bdf8; }
+.tech-card.mysql-icon:hover .tech-icon      { color: #00758f; }
+.tech-card.nestjs-icon:hover .tech-icon     { color: #ea2845; }

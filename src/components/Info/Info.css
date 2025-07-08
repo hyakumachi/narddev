@@ -36,13 +36,3 @@
   justify-content: center;
   transition: filter 0.2s;
 }
-
-.contact-container button:hover .icon {
-  filter: invert(1);
-}
-
-/* .contact-container button:focus {
-    outline: 2px solid #fff;           
-    outline-offset: 0px;
-    box-shadow: 0 0 0 2px #fff;
-} */

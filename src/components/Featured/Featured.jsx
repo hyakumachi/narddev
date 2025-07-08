@@ -38,6 +38,10 @@ const Featured = () => {
   return (
     <div className="container">
       <h2 className="title">Featured Projects</h2>
+      <p className="desc">
+        Showcasing web projects that highlight my skills in design, development,
+        and problem-solving using various technologies.
+      </p>
       {projects.map((project, index) => (
         <a
           href={project.url}
