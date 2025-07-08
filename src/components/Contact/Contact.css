@@ -1,4 +1,4 @@
-/* .socials {
+.socials {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,5 +16,4 @@
 .socials a:hover {
   color: #fff;
   opacity: 1;
-} */
-
+}
