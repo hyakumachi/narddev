@@ -7,7 +7,6 @@
 
 .contact-container button {
   flex: 1;
-  border: 0.1px solid white;
   color: white;
   border-radius: 8px;
   padding: 0.5rem 1.2rem;
@@ -16,13 +15,14 @@
   transition:
     background 0.2s,
     color 0.2s;
-  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   gap: 0.5rem;
   outline: none;
+  background: #000;
+  border: 0.1px solid white;
 }
 
 .contact-container button:hover {
@@ -36,3 +36,4 @@
   justify-content: center;
   transition: filter 0.2s;
 }
+

@@ -1,51 +1,58 @@
 import React from "react";
 import "./Contact.css";
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+
 
 const socials = [
   {
     name: "Facebook",
-    img: <FaFacebookF />,
+    icon: <FaFacebook />,
     url: "https://www.facebook.com/pacanza.bernard",
   },
   {
     name: "LinkedIn",
-    img: <FaLinkedinIn />,
+    icon: <FaLinkedin />,
     url: "https://www.linkedin.com/in/bernardpacanza4884/",
   },
   {
-    name: "Gmail",
-    img: <SiGmail />,
-    url: "mailto:pacanza.berns4884@gmail.com",
+    name: "GitHub",
+    icon: <FaGithub />,
+    url: "https://www.github.com/hyakumachi/",
   },
 ];
 
-const Contact = () => {
-  return (
-    <div className="container">
-      <h1 className="title">Connect with me</h1>
-      <p className="desc">
-        Feel free to reach out or connect with me on my social platforms for
-        collaboration or networking opportunities.
-      </p>
-      <div className="socials">
-        {socials.map((social, index) => (
-          <a
-            href={social.url}
-            className="contact-icons"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={social.name}
-            key={index}
-          >
-            {social.img}
-          </a>
-        ))}
+const Contact = () => (
+  <div className="contact-wrapper">
+    <h2 className="contact-title">Connect with me</h2>
+    <p className="contact-sub">
+      Feel free to reach out on any of the platforms below.
+    </p>
+    <a href="mailto:pacanza.berns4884@gmail.com" className="mail-card-link">
+      <div className="mail-card-inner">
+        <FaEnvelope className="mail-icon" />
+        <div>
+          <div className="mail-label">Mail me</div>
+          <div className="mail-link">pacanza.berns4884@gmail.com</div>
+        </div>
       </div>
+    </a>
+    <div className="contact-or">or</div>
+    <div className="contact-icons-row">
+      {socials.map(({ name, icon, url }) => (
+        <a
+          key={name}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={name}
+          className="contact-social-btn"
+        >
+          {icon}
+        </a>
+      ))}
     </div>
-  );
-};
+  </div>
+);
 
 export default Contact;
