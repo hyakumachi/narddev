@@ -10,14 +10,16 @@
   border-radius: 0.75rem;
   padding: 1.5rem;
   text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  transition: transform 0.2s cubic-bezier(.4,2,.6,1), box-shadow 0.2s cubic-bezier(.4,2,.6,1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition:
+    transform 0.2s cubic-bezier(0.4, 2, 0.6, 1),
+    box-shadow 0.2s cubic-bezier(0.4, 2, 0.6, 1);
   cursor: pointer;
 }
 .tech-card:hover,
 .tech-card:focus {
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.24);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
 }
 
 .tech-icon {
@@ -28,12 +30,22 @@
 }
 
 .tech-name {
-  font-size: .85rem;
+  font-size: 0.85rem;
   color: #ffffff;
-} 
+}
 
-.tech-card.react-icon:hover .tech-icon   { color: #61dafb; }
-.tech-card.typescript-icon:hover .tech-icon { color: #3178c6; }
-.tech-card.tailwind-icon:hover .tech-icon   { color: #38bdf8; }
-.tech-card.mysql-icon:hover .tech-icon      { color: #00758f; }
-.tech-card.nestjs-icon:hover .tech-icon     { color: #ea2845; }
+.tech-card.react-icon:hover .tech-icon {
+  color: #61dafb;
+}
+.tech-card.typescript-icon:hover .tech-icon {
+  color: #3178c6;
+}
+.tech-card.tailwind-icon:hover .tech-icon {
+  color: #38bdf8;
+}
+.tech-card.mysql-icon:hover .tech-icon {
+  color: #00758f;
+}
+.tech-card.nestjs-icon:hover .tech-icon {
+  color: #ea2845;
+}

@@ -39,8 +39,8 @@ const TechStack = () => {
     <div className="container">
       <h2 className="title">Tech Stack</h2>
       <p className="desc">
-        A selection of modern tools that I use to build scalable,
-        high-quality web applications.
+        A selection of modern tools that I use to build scalable, high-quality
+        web applications.
       </p>
       <div className="stack-icons">
         {stack.map((tech, index) => (

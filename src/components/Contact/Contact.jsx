@@ -1,8 +1,6 @@
 import React from "react";
 import "./Contact.css";
 import { FaFacebook, FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
-
 
 const socials = [
   {

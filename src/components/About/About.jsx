@@ -1,6 +1,32 @@
 import React from "react";
 import "./About.css";
 import pfp from "/src/assets/pfp.jpg";
+import { FaLinkedinIn, FaFacebookF, FaFileDownload } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { SiGmail } from "react-icons/si";
+
+const socials = [
+  {
+    icon: <FiGithub size={16} />,
+    url: "https://github.com/hyakumachi",
+    label: "GitHub",
+  },
+  {
+    icon: <FaLinkedinIn size={16} />,
+    url: "https://www.linkedin.com/in/bernardpacanza4884/",
+    label: "LinkedIn",
+  },
+  {
+    icon: <SiGmail size={16} />,
+    url: "mailto:pacanza.berns4884@gmail.com",
+    label: "Email",
+  },
+  {
+    name: "Facebook",
+    icon: <FaFacebookF />,
+    url: "https://www.facebook.com/pacanza.bernard",
+  },
+];
 
 const About = () => {
   return (
@@ -14,10 +40,40 @@ const About = () => {
           <img src={pfp} alt="Profile" className="profile-img" />
         </div>
       </div>
+
+      <div className="about-links">
+        <button
+          className="resume-btn"
+          aria-label="Download Resume"
+          onClick={() =>
+            window.open(
+              "/src/assets/resume.pdf",
+              "_blank",
+              "noopener,noreferrer",
+            )
+          }
+        >
+          <FaFileDownload />
+          Resume
+        </button>
+
+        {socials.map((social, index) => (
+          <a
+            key={index}
+            href={social.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={social.label}
+          >
+            {social.icon}
+          </a>
+        ))}
+      </div>
+
       <div className="about-description">
         <h2>
           <span className="intro intro-bold">
-            Hello!👋 — I'm a developer based in the Philippines with a strong
+            Hello! 👋 — I'm a developer based in the Philippines with a strong
             interest in web and mobile technologies.
           </span>
           <span className="intro intro-normal">

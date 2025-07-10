@@ -14,12 +14,10 @@ function App() {
     <>
       <Navbar />
       <About />
-      <Info />
       <TechStack />
       <Experience />
       <Featured />
       <Contact />
-
       <Footer />
     </>
   );

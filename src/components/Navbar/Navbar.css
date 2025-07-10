@@ -38,7 +38,7 @@
 }
 
 .navbar.scrolled {
-  background: #080809cc; /* add some opacity when scrolled */
+  background: #080809cc;
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   backdrop-filter: blur(16px) saturate(180%);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.17);
