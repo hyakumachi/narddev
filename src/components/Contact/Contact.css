@@ -142,10 +142,3 @@
     text-align: center;
   }
 }
-
-@media (max-width: 400px) {
-  .contact-social-btn {
-    padding: 0.3rem 0.3rem;
-    font-size: 1.1rem;
-  }
-}

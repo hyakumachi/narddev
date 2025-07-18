@@ -5,6 +5,12 @@ footer {
 }
 
 footer p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #aaa;
+}
+
+@media (max-width: 768px) {
+  footer p {
+    font-size: 0.75rem;
+  }
 }

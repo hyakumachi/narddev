@@ -133,7 +133,9 @@
     object-fit: cover;
   }
   .event-buttons {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    align-items: center;
+    justify-content: center;
   }
   .event-desc {
     font-size: 0.9rem;

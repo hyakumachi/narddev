@@ -47,7 +47,7 @@ const About = () => {
           aria-label="Download Resume"
           onClick={() =>
             window.open(
-              "/src/assets/resume.pdf",
+              "public/resume.pdf",
               "_blank",
               "noopener,noreferrer",
             )
