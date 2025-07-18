@@ -42,6 +42,9 @@
   gap: 0.6rem;
   padding: 0.45rem 1.1rem 0.45rem 0.8rem;
   font-size: 1rem;
+  flex-wrap: nowrap;
+  min-width: 260px;
+  max-width: 100%;
 }
 
 .mail-icon {
@@ -99,6 +102,8 @@
   justify-content: center;
   gap: 0.42rem;
   margin-top: 0.1rem;
+  flex-wrap: wrap;
+  row-gap: 0.3rem;
 }
 
 .contact-social-btn {
@@ -133,17 +138,14 @@
 
 @media (max-width: 540px) {
   .mail-card-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0.4rem 0.6rem;
-    max-width: 95vw;
-    gap: 0.2rem;
+    align-items: center;
+    text-align: center;
   }
-  .contact-icons-row {
-    gap: 0.22rem;
-  }
+}
+
+@media (max-width: 400px) {
   .contact-social-btn {
-    font-size: 0.93rem;
-    padding: 0.09rem 0.18rem;
+    padding: 0.3rem 0.3rem;
+    font-size: 1.1rem;
   }
 }

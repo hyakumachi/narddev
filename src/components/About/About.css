@@ -3,14 +3,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
   width: 100%;
   box-sizing: border-box;
   margin: 75px 0 0 0;
 }
 
 .about-name {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(3rem, 4vw, 3rem);
   margin: 0;
   white-space: nowrap;
 }
@@ -33,11 +33,11 @@
 
 .profile-img {
   border-radius: 10%;
-  width: 200px;
-  max-width: 100%;
   height: auto;
   filter: grayscale(0%);
   transition: filter 0.3s ease-in-out;
+  width: 100%;
+  max-width: 200px;
 }
 
 .profile-img:hover {
@@ -49,7 +49,7 @@
 }
 
 .intro {
-  font-size: clamp(0.6rem, 2vw + 0.4rem, 1.5rem);
+  font-size: clamp(1.5rem, 2vw + 0.4rem, 1.5rem);
 }
 .intro-bold {
   font-weight: bold;
@@ -58,22 +58,6 @@
 .intro-normal {
   font-weight: normal;
   opacity: 0.5;
-}
-
-/* COPILOT RESPONSIVE CODE */
-@media (max-width: 700px) {
-  .about-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .about-text,
-  .about-img {
-    width: 100%;
-    text-align: center;
-  }
-  .about-img {
-    margin-top: 1.5rem;
-  }
 }
 
 .about-links {
@@ -117,4 +101,30 @@
 .about-links a:hover {
   background: #fff;
   color: #000;
+}
+
+@media (max-width: 700px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 50px;
+  }
+
+  .about-img {
+    justify-content: center;
+  }
+
+  .about-text,
+  .about-img {
+    width: 100%;
+    text-align: center;
+  }
+  .about-description {
+    text-align: center;
+  }
+  .about-links {
+    justify-content: center;
+    margin: 1rem 0;
+  }
 }
