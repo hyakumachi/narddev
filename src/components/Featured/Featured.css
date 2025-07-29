@@ -15,6 +15,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
   cursor: default;
   text-decoration: none;
+  align-items: stretch;
 }
 .featured-card:hover {
   background-color: #1c1c1c;
@@ -78,7 +79,8 @@
   background: #000;
   color: #fff;
   border-radius: 20px;
-  padding: 6px 14px;
+  padding: 6px 12px;
+  line-height: 1;
   font-size: 0.75rem;
   font-weight: 600;
   text-decoration: none;
@@ -94,9 +96,7 @@
   color: #000;
 }
 .event-pic {
-  flex: 1;
   width: 350px;
-  min-width: 350px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -113,7 +113,8 @@
 .featured-card:hover .event-pic img {
   transform: scale(1.03);
 }
-@media (max-width: 650px) {
+
+@media (max-width: 1500px) {
   .featured-card {
     flex-direction: column;
     gap: 12px;
@@ -133,7 +134,6 @@
     object-fit: cover;
   }
   .event-buttons {
-    /* justify-content: flex-start; */
     align-items: center;
     justify-content: center;
   }

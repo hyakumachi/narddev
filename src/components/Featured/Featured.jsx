@@ -11,7 +11,7 @@ const projects = [
     name: "La Salle Davao",
     description:
       'I recreated the DLSU website as "De La Salle Davao" with my own design, using the original as a reference.',
-    stack: ["React", "CSS", "JavaScript"],
+    stack: ["React", "CSS", "Javascript"],
     img: proj1,
     source: "https://github.com/hyakumachi/la-salle-davao",
     demo: "https://la-salle-davao.vercel.app",
