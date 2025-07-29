@@ -46,11 +46,7 @@ const About = () => {
           className="resume-btn"
           aria-label="Download Resume"
           onClick={() =>
-            window.open(
-              "resume.pdf",
-              "_blank",
-              "noopener,noreferrer",
-            )
+            window.open("resume.pdf", "_blank", "noopener,noreferrer")
           }
         >
           <FaFileDownload />
@@ -73,14 +69,13 @@ const About = () => {
       <div className="about-description">
         <h2>
           <span className="intro intro-bold">
-            Hello! 👋 — I'm a developer based in the Philippines with a strong
-            interest in web and mobile technologies.
+            Hello! 👋 — I'm a developer from the Philippines with a strong
+            interest in full stack and mobile development.
           </span>
           <span className="intro intro-normal">
             {" "}
-            I'm currently focused on full stack development and database
-            administration, with the goal of building scalable and reliable
-            software solutions.
+            I enjoy turning ideas into working products and learning how to make
+            software that's clean, efficient, and easy to maintain.
           </span>
         </h2>
       </div>
