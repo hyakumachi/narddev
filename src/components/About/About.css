@@ -10,13 +10,14 @@
 }
 
 .about-name {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(3rem, 4vw, 3rem);
   margin: 0;
   white-space: nowrap;
 }
 
 .about-role {
   margin-top: 0;
+  font-size: clamp(1rem, 2.5vw, 1rem);
 }
 
 .about-text {
@@ -50,7 +51,7 @@
 
 .intro {
   font-size: clamp(1.2rem, 2vw + 0.5rem, 1.5rem);
-  text-align: left
+  text-align: left;
 }
 .intro-bold {
   font-weight: bold;
@@ -104,7 +105,10 @@
   color: #000;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 768px) {
   .about-container {
     flex-direction: column;
     align-items: center;
