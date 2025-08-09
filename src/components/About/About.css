@@ -10,7 +10,7 @@
 }
 
 .about-name {
-  font-size: clamp(3rem, 4vw, 3rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   margin: 0;
   white-space: nowrap;
 }
